@@ -4,6 +4,7 @@ import './App.css';
 
 import Coba1 from './Coba1';
 import Coba2 from './Coba2';
+import ValidationExample from './ValidationExample';
 
 class App extends Component {
   render() {
@@ -18,17 +19,15 @@ class App extends Component {
         <Coba1/>
         <br></br>
         <Coba2/>
+        <br></br>
+        <ValidationExample/>
       </div>
     )
   }
 }
 
-App.propTypes = {
-  text:   React.propTypes,
-  cat:   React.propTypes
-}
 
 App.defaultProps = {
-  text : "dddddddddddd"
+  te : "dddddddddddd"
 }
 export default App;
